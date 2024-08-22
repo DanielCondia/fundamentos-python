@@ -3,7 +3,7 @@
  entre el string, y el string lo escribimos justo con las comillas simples, o viceversa.
 """
 
-string_simple = "I'm Daniel"    # Tener en cuenta la comilla simple del I'm... Si escribiéramos ese string con '',
+string_simple = "I'm Daniel"  # Tener en cuenta la comilla simple del I'm... Si escribiéramos ese string con '',
 # estaría mal
 
 string_complex = 'She said: "Hellooo"'  # Ahora tengamos en cuenta que aquí es todo lo contrario.
@@ -31,5 +31,3 @@ print(rta2)
 # Tercer método y más efectivo
 rta3 = f"Mi nombre es {my_name}{my_last_name} y tengo {str(my_age)}"
 print(rta3)
-
-
